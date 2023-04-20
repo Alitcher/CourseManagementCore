@@ -1,0 +1,30 @@
+# .gitignore file for .NET Core projects
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore Visual Studio temporary files, build results, and .vs folders
+**/node_modules/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.bak
+*.swp
+*.swx
+
+# Ignore NuGet packages folder
+packages/
+
+# Ignore local appsettings.json files, which might contain sensitive data
+**/appsettings*.json
+!**/appsettings.json
+
+# Ignore other files
+.DS_Store
+*.pidb
+*.log
+.sln.ide/
+.idea/
